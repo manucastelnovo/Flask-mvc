@@ -2,7 +2,7 @@
 from flask import Flask
 from flask_migrate import Migrate
 from routes.user_route import blueprint
-from models.user import db
+from service.database_service import db
 
 
 
